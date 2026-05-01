@@ -145,36 +145,6 @@ modulforge/
 ├── README.md
 ├── docs/
 │   ├── architecture.md          # All 6 Mermaid architecture diagrams
-│   ├── security.md              # Security pipeline detail & toolchain
-│   ├── jit-access.md            # JIT broker setup & token flow
-│   ├── risk-scoring.md          # How PR risk scores are calculated
-│   └── debugging.md             # Using the audit log to trace incidents
-├── orchestration/
-│   ├── task-orchestrator/       # Task routing, manifest signing
-│   └── qa-orchestrator/         # Artifact routing, gate enforcement
-├── agents/
-│   ├── frontend-agent/          # Dockerfile + agent config
-│   ├── backend-agent/
-│   ├── data-agent/
-│   ├── review-agent/
-│   └── test-agent/
-├── security-pipeline/
-│   ├── sast/                    # Semgrep rules + CI config
-│   ├── secret-detection/        # Gitleaks config
-│   ├── sca/                     # Dependency scan config
-│   └── dast/                    # OWASP ZAP config
-├── jit-broker/                  # JIT access broker service
-├── audit-log/                   # Immutable log ingestion + query
-├── risk-scorer/                 # PR risk scoring engine
-├── policy/
-│   └── opa/                     # Open Policy Agent rules
-├── infra/
-│   ├── cloud-a/                 # Database pod config
-│   ├── cloud-b/                 # Artifact store + CI/CD config
-│   └── cloud-c/                 # Secrets + vault config
-└── .github/
-    └── workflows/
-        └── security-pipeline.yml
 ```
 
 ---
