@@ -143,8 +143,8 @@ No agent container has outbound internet access. All communication flows through
 ```
 modulforge/
 ├── README.md
-├── docs/
-│   ├── architecture.md          # All 6 Mermaid architecture diagrams
+└── docs/
+    └── architecture.md          # All 6 Mermaid architecture diagrams
 ```
 
 ---
